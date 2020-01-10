@@ -6,13 +6,13 @@ import com.list.am_automation.pages.PhoneCategoryPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-// 1. Use the following data for the manufacturer_choice() method
+// 1. Use the following data for the set_manufacturer_choice() method
 //    Acer, Alcatel, Apple iPhone, Fly, Samsung, Xiaomi, Other.
 
-// 2. Use the following data for the currency_selection() method
+// 2. Use the following data for the set_currency_selection() method
 //    index 0 = All, index 1 = AMD, index 2 = USD.
 
-// 3. Use the following data for the choose_location() method
+// 3. Use the following data for the set_location() method
 //    Yerevan, Aragatsotn, Ararat, Armavir, Kotayk, Lorri, Shirak, Syunik.
 
 public class For_Tests extends BaseTest {
