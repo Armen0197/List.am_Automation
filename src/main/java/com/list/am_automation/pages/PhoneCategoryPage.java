@@ -69,7 +69,7 @@ public class PhoneCategoryPage extends BasePage <PhoneCategoryPage> {
 
     @Override
     protected void isLoaded() throws Error {
-        assertTrue("ElectronicsCategoryPage is not loaded!", getDriver().getCurrentUrl().contains(PHONE_PAGE_URL));
+        assertTrue("PhoneCategoryPage is not loaded!", getDriver().getCurrentUrl().contains(PHONE_PAGE_URL));
     }
 
         // Who are we dealing with
